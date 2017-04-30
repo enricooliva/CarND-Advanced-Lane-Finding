@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./output_images/cal3_undistorted.png "Undistorted"
-[image2]: ./output_images/undistort_output.png "Road Transformed"
+[image2]: ./output_images/filterd.png "Road Transformed"
 [image3]: ./output_images/combined_binary.png "Binary Example"
 [image4]: ./output_images/warped.png "Warp Example"
 
