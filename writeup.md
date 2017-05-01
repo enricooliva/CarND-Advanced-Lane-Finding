@@ -70,17 +70,17 @@ I verified that my perspective transform was working as expected by drawing the 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-Then in fuction finding_lanes I fit my lane lines with a 2nd order polynomial like this:
+Then in fuction finding_lanes I used the code presented in the lesson "Locate the Lane Lines and Fit a Polynomial" in order to identify the lane lines with a 2nd order polynomial like this:
 
 ![alt text][image5]
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I did this in lines 13-14 through in my code in `./calibration.ipynb` in the function measure_curve 
+I did this in lines 13-14 through in my code in `./calibration.ipynb` in the function measure_curve keeping in input the polynomial lane lines calculated in the previous step and calculate the Radius of Curvature in the point more next to the vehicle.
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines 34 through 44 in my code in the function `pipeline()`.  Here is an example of my result on a test image:
+I implemented this step in lines 34 through 44 in my code in the function `pipeline()` where expoiting the inverse matrix of prespective trasformation the polynomial lane lines are draw in the original image.  Here is an example of my result on a test image:
 
 ![alt text][image6]
 
