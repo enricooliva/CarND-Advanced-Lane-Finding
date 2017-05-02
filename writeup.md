@@ -98,4 +98,7 @@ Here's a [link to my video result](./result.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+Here I'll talk about the approach I took. The project use several techinque of elaboration of images as calibration, image transformation and color and gradient filter in order to obtain a workable image to find the lane lines.
+
+I can make the project more robust writing more sanity check. The project is working with costant weather condition, to make the project more robust and avoid fail in case of variable condition it will be necessary change the color and gradient filter based on image condition.
+
